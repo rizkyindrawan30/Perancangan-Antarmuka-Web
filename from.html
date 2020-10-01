@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2 : Form</title>
+</head>
+<body bgcolor="d3d3d3">
+    <h3>Update Biodata Karyawan</h3>
+    <form action="">
+        <table style="width: 40%;" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+            <td><label for="username">Username  </label></td>
+            <td>: <input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>: <input type="password"></td>
+        </tr>
+        <tr>
+            <td><label for="alamat">Alamat</label></td>
+            <td>: <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>: 
+                <input type="radio" name="jenis kelamin" id="laki-laki">Laki-laki
+                <input type="radio" name="jenis kelamin" id="perempuan">Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>: 
+            <input type="checkbox" name="hobi_basket">Basket
+            <input type="checkbox" name="hobi_maingame">Main Game
+            </td>
+        </tr>
+        <tr>
+            <td>Asal Kota</td>
+            <td>: 
+                <select name="asalkota" id="asalkota">
+                    <option value="Pilihkota">-- Pilih Asal Kota --</option>
+                    <option value="Singaraja">Singaraja</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Jakarta">Jakarta</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Komentar</td>
+            <td><textarea name="komentar" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Simpan"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
